@@ -8,7 +8,7 @@ def summon_captain_planet(calls)
   capitalize_calls = []
   i = 0 
   while i < calls.length 
-    nu_array << calls[i].capitalize + "!"
+    capitalize_calls << calls[i].capitalize + "!"
     i += 1 
   end 
   capitalize_calls
