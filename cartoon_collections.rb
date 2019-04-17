@@ -15,12 +15,12 @@ def summon_captain_planet(calls)
 end
 
 def long_planeteer_calls(calls)
-  i = 0 
+  
   if calls.any? { |word| word.length > 4}
     true 
   else 
     false 
-     i = i + 1
+    
   end
 end
 
