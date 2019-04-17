@@ -4,8 +4,8 @@ def roll_call_dwarves(d_name)
   puts "#{index} #{name}"}
 end 
 
-def summon_captain_planet()
-  
+def summon_captain_planet(calls)
+  calls.split()
 end
 
 def long_planeteer_calls# code an argument here
